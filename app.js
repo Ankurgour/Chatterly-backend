@@ -5,10 +5,10 @@ import errorMiddleware from "./middlewares/error.js";
 import cookieParser from "cookie-parser";
 import { Server } from "socket.io";
 import userRoutes from "./routes/user.js"
-import chatRoutes from "../server/routes/chats.js";
+import chatRoutes from "./routes/chats.js"
 import { createServer } from "http";
 import { v4 as uuid } from "uuid";
-import adminRoute from "../server/routes/admin.js";
+import adminRoute from "./routes/admin.js";
 import { CHAT_JOINED, CHAT_LEAVED, NEW_MESSAGE, NEW_MESSAGE_ALERT, ONLINE_USERS, START_TYPING, STOP_TYPING } from "./constants/events.js";
 import { getSockets } from "./lib/helper.js";
 import { Message } from "./models/message.js";
