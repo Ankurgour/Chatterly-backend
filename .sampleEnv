@@ -1,0 +1,14 @@
+MONGO_URL = mongodb+srv://ankurgour2003:Ankur123@cluster0.6kqxs9u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+PORT = 3000
+
+JWT_SECRET = ankurisagoodboy
+
+ADMIN_KEY =ankurisadmin
+
+
+NODE_ENV=DEVELOPMENT
+CLIENT_URL=frontend url
+CLOUDINARY_CLOUD_NAME=dvc7w7dra
+CLOUDINARY_API_KEY=348297124836372
+CLOUDINARY_API_SECRET=Y-DUhxogfPmx3X_3XTK53WniSZs
