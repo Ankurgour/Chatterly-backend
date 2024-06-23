@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import errorMiddleware from "./middlewares/error.js";
 import cookieParser from "cookie-parser";
 import { Server } from "socket.io";
-import userRoutes from "../server/routes/user.js";
+import userRoutes from "./routes/user.js"
 import chatRoutes from "../server/routes/chats.js";
 import { createServer } from "http";
 import { v4 as uuid } from "uuid";
