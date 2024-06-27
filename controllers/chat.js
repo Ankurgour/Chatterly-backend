@@ -399,8 +399,8 @@ const deleteChat = async (req, res) => {
       attachments: { $exists: true, $ne: [] },
     });
     const public_ids = [];
-    meesagesWithAttachments.forEach((attachment) => {
-      attachment.forEach(({ public_id }) => {
+    meesagesWithAttachments.forEach(({attachments}) => {
+      attachments.forEach(({ public_id }) => {
         public_ids.push(public_id);
       });
     });
