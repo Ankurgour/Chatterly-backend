@@ -36,7 +36,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://chatterly-phi.vercel.app","http://localhost:5173"],
+    origin: ["https://chatterly-phi.vercel.app","http://localhost:5173","https://chatterly-ankurgour2003gmailcoms-projects.vercel.app"],
     credentials: true,
   })
 );
